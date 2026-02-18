@@ -52,7 +52,7 @@ function Fetch(){
               <td> <button onClick={()=>mydelete(e.id)}>Delete</button></td>
               <td> <button onClick={()=>(setShow(true),seteditdata(e))}>Edit</button></td>
             </tr>
-          ))
+          )) 
         }
 
       </table>
@@ -65,7 +65,7 @@ function Fetch(){
           <label htmlFor=""> Name </label>
           <input type="text" value={editdata.name} name="name" onChange={editinput}/> <br/><br/>
 
-          <label htmlFor=""> Age </label>
+          <label htmlFor=""> Agee </label>
           <input type="text" value={editdata.age} name="age" onChange={editinput}/> <br/><br/>
 
            <label htmlFor=""> City </label>
